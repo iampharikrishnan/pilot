@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>312052946738-aedb9gpfaj702t1aklcfb463vai1k59g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.312052946738-aedb9gpfaj702t1aklcfb463vai1k59g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAiNMzqSNxlM-5igxjzPPpU9eieGYfGB2k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>312052946738</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pravaha.pilot</string>
+	<key>PROJECT_ID</key>
+	<string>expapp-d8926</string>
+	<key>STORAGE_BUCKET</key>
+	<string>expapp-d8926.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:312052946738:ios:392c448f3a9cfda6f9692b</string>
+	<key>DATABASE_URL</key>
+	<string>https://expapp-d8926.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "312052946738",
+    "firebase_url": "https://expapp-d8926.firebaseio.com",
+    "project_id": "expapp-d8926",
+    "storage_bucket": "expapp-d8926.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312052946738:android:0c6257e265268c0af9692b",
+        "android_client_info": {
+          "package_name": "com.pravaha.pilot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312052946738-dtiiaqlj9ljbqctukb8g24ihv6m18v4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD58jaFOtcpCe8WnDTUsJnXLWVjFnIiD4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312052946738-dtiiaqlj9ljbqctukb8g24ihv6m18v4k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "312052946738-aedb9gpfaj702t1aklcfb463vai1k59g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pravaha.pilot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
