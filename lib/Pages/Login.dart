@@ -59,27 +59,31 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 
-  Future<void> logIn() async {
-    setState(() {
-      _isLoading = true;
-    });
-    String userId = "";
-    try {
-      userId = await widget.auth.signIn(_email, _password);
-      print('Signed in: $userId');
+  void logIn() async {
+    final _formstate = _formKey.currentState;
+    if (_formstate.validate()) {
+      _formstate.save();
       setState(() {
-        _isLoading = false;
+        _isLoading = true;
       });
+      String userId = "";
+      try {
+        userId = await widget.auth.signIn(_email, _password);
+        print('Signed in: $userId');
+        setState(() {
+          _isLoading = false;
+        });
 
-      if (userId.length > 0 && userId != null) {
-        widget.loginCallback();
+        if (userId.length > 0 && userId != null) {
+          widget.loginCallback();
+        }
+      } catch (e) {
+        print('Error: $e');
+        setState(() {
+          _isLoading = false;
+          _formKey.currentState.reset();
+        });
       }
-    } catch (e) {
-      print('Error: $e');
-      setState(() {
-        _isLoading = false;
-        _formKey.currentState.reset();
-      });
     }
   }
 
