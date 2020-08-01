@@ -81,7 +81,7 @@ class _LoginPageState extends State<LoginPage> {
         print('Error: $e');
         setState(() {
           _isLoading = false;
-          _formKey.currentState.reset();
+          _formstate.reset();
         });
       }
     }
@@ -203,7 +203,7 @@ class _LoginPageState extends State<LoginPage> {
               SizedBox(height: 24.0),
               loginButton(),
               forgotPassword(),
-              //showErrorMessage(""),
+              showErrorMessage(""),
             ],
           ),
         ),
