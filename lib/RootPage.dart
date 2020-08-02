@@ -1,11 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:pilot/Authentication.dart';
 import 'package:pilot/CustomWidgets/Logo.dart';
-import 'package:pilot/Pages/Settings.dart';
-
-import 'Authentication.dart';
-import 'Pages/Home.dart';
-import 'Pages/Login.dart';
+import 'package:pilot/Views/Home.dart';
+import 'package:pilot/Views/Login.dart';
+import 'package:pilot/Views/Settings.dart';
 
 enum AuthStatus {
   NOT_DETERMINED,

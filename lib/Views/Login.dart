@@ -31,7 +31,7 @@ import 'package:flutter/material.dart'
         TextStyle,
         VoidCallback,
         Widget;
-import 'package:pilot/Authentication.dart' show BaseAuth;
+import 'package:pilot/Authentication.dart';
 import 'package:pilot/CustomWidgets/Logo.dart' show Logo;
 
 class LoginPage extends StatefulWidget {

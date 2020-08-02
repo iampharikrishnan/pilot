@@ -20,8 +20,8 @@ import 'package:flutter/material.dart'
         StatelessWidget,
         Text,
         Widget;
-import 'package:pilot/Authentication.dart' show BaseAuth;
-import 'package:pilot/Pages/CustomerRegForm.dart' show FormsApp;
+import 'package:pilot/Authentication.dart';
+import 'package:pilot/Views/CustomerRegForm.dart' show FormsApp;
 
 final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
 
