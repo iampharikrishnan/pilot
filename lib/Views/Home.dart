@@ -21,7 +21,7 @@ import 'package:flutter/material.dart'
         Text,
         Widget;
 import 'package:pilot/Authentication.dart';
-import 'package:pilot/Views/CustomerRegForm.dart' show FormsApp;
+import 'package:pilot/Views/CustomerRegForm.dart';
 
 final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
 

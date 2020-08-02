@@ -32,7 +32,7 @@ import 'package:flutter/material.dart'
         VoidCallback,
         Widget;
 import 'package:pilot/Authentication.dart';
-import 'package:pilot/CustomWidgets/Logo.dart' show Logo;
+import 'package:pilot/CustomWidgets/Logo.dart';
 
 class LoginPage extends StatefulWidget {
   LoginPage({Key key, this.auth, this.loginCallback}) : super(key: key);
